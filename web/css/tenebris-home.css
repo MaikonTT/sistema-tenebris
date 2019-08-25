@@ -1,0 +1,113 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 04/05/2019, 21:19:07
+    Author     : Takeshi
+*/
+@import url('config.css');
+
+.menu-lista ul li{ 
+    display: inline;
+    margin-left: 50px;
+}
+.menu-lista {
+    position: absolute;
+    top: 50px;
+    left: 500px;
+    font-size: 35px;
+}
+.bg-faded {
+    background-color: rgba(197, 0, 227, 0.26);
+}
+.container-home{
+    margin-left: 200px;
+    margin-top: 250px;
+    margin-right: 1300px;
+    color: #ffffff;
+}
+.rodape{
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    margin-right: -50%;
+    font-size: 15px;
+    transform: translate(-50%, -50%);
+    margin-top: 50px;
+}
+.posicionador-sub-titulo{
+    position: absolute;
+    left: 200px;
+    margin-top: 100px;
+}
+.sub-titulo-sobre{
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 900;
+    font-stretch: ultra-expanded;
+}
+.img-logo{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+a:hover {
+    color: #820079;
+    text-decoration: none;
+}
+.link-menu{
+    color: #ffffff;
+}
+.menu-caixa{
+    margin-left: 10%;
+    width: 80%;
+    background-color: rgba(197, 0, 227, 0.26);
+    opacity: 20%;
+}
+.caixa-texto{
+    margin: 100px 10% 50px 10%;
+}
+.texto-sobre{
+    padding-top: 100px;
+    color: #ffffff;
+    font-size: 15px;
+}
+body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    text-align: left;
+}
+.sub-titulo-galeria{
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 900;
+    font-stretch: ultra-expanded;    
+    position: absolute;
+    
+    left: 50%;
+    margin-top: 100px;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.galeria-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 200px;
+}
+
+.galeria-grid img{
+    width: 480px;
+    height: 300px;
+    border: inset 3px black;
+}
+.galeria-grid img:hover{
+    border: outset 3px white;
+}
+.caixa-dados{
+    color: black;
+}

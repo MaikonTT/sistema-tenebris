@@ -1,0 +1,15 @@
+body{
+    font-size: 20px;
+}
+.bg-dark2{    
+    background-image: url("../img/foto1000.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container-log{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}

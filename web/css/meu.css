@@ -1,0 +1,64 @@
+#tabela_cup{
+    max-width: 100%;
+    height: auto;
+    overflow: scroll;
+}
+@media (min-width: 768px){
+    .ml-md-0, .mx-md-0 {
+        margin-left: auto!important; 
+    }
+}
+#caixa{
+    background-color: #ab8000!important;
+}
+#page-top{
+    color: #002752;
+}
+.sticky-footer{
+    background-color: transparent!important;
+}
+#rel{
+    background-color: #945359 !important;
+}
+#tit{
+    color: #fff!important;
+}
+#mainNav{
+    background-color:rgba(19, 10, 44, 0.5);
+}
+.navbar-brand{
+    color:#e6a6e6;
+}
+.bg-faded {
+    background-color: rgba(197, 0, 227, 0.26);
+}
+#navbarResponsive{
+    font-size: 20px;    
+}
+#barranav{
+    font-size: 30px;    
+}
+.opcoes{
+    text-align: right;    
+}
+.container{
+    width:100%;
+    padding-right:15px;
+    padding-left:15px;
+    margin-right:auto;
+    margin-left:auto;
+}
+.id-box{
+    width: 50px;
+    border-style: none;
+    text-align: center;
+    margin-right: 10px;
+}
+.dados-box{
+    margin-left: auto;
+    margin-right: 10px;
+    width: 100%;
+}
+.label1{
+    text-align: left;
+}
